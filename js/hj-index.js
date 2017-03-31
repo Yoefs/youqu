@@ -20,7 +20,8 @@ $(function(){
         resize();
         window.addEventListener('resize',resize);
     	hjGlobal = false;
-    	var login=$(".login");
+    	var login=document.querySelector(".login");
+    	// console.log(login)
 	    var skip=$(".skip");
 
 	    skip.on("touchstart",function () {
